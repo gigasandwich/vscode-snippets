@@ -1,0 +1,38 @@
+{
+	"SQL Comment Block": {
+		"prefix": "commsql",
+		"body": [
+			"-- ===============================",
+			"-- ${1:Comment Title}",
+			"-- ==============================="
+		],
+		"description": "Insert a comment block for SQL"
+	},
+	"C# Comment Block": {
+		"prefix": "commscsharp",
+		"body": [
+			"//////////////////////////////",
+			"/// ${1:Comment Title}",
+			"//////////////////////////////"
+		],
+		"description": "Insert a comment block for C#"
+	},
+	"Java Comment Block": {
+		"prefix": "commjava",
+		"body": [
+			"/****************************/",
+			" * ${1:Comment Title}",
+			" ****************************/"
+		],
+		"description": "Insert a comment block for Java"
+	},
+	"Python Comment Block": {
+		"prefix": "commpython",
+		"body": [
+			"##############################",
+			"# ${1:Comment Title}",
+			"##############################"
+		],
+		"description": "Insert a comment block for Python"
+	}
+}
