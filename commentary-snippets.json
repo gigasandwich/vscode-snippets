@@ -19,15 +19,15 @@
         "scope": "csharp",
         "description": "Insert a comment block for C#"
     },
-    "Java Comment Block": {
+    "Java & PHP Comment Block": {
         "prefix": "comms",
         "body": [
-            "/****************************/",
+            "/****************************",
             " * ${1:Comment Title}",
             " ****************************/"
         ],
-        "scope": "java",
-        "description": "Insert a comment block for Java"
+        "scope": "java,php",
+        "description": "Insert a comment block for Java and PHP"
     },
     "Python Comment Block": {
         "prefix": "comms",
@@ -38,5 +38,25 @@
         ],
         "scope": "python",
         "description": "Insert a comment block for Python"
+    },
+    "JavaScript & TypeScript Comment Block": {
+        "prefix": "comms",
+        "body": [
+            "////////////////////////////////",
+            "// ${1:Comment Title}",
+            "////////////////////////////////"
+        ],
+        "scope": "javascript,typescript",
+        "description": "Insert a comment block for JavaScript and TypeScript"
+    },
+    "Bash Comment Block": {
+        "prefix": "comms",
+        "body": [
+            "################################",
+            "# ${1:Comment Title}",
+            "################################"
+        ],
+        "scope": "shellscript",
+        "description": "Insert a comment block for Bash"
     }
 }
