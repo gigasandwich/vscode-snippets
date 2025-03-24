@@ -26,7 +26,7 @@
             " * ${1:Comment Title}",
             " ****************************/"
         ],
-        "scope": "java,php",
+        "scope": "java,php,css,scss",
         "description": "Insert a comment block for Java and PHP"
     },
     "Python Comment Block": {
